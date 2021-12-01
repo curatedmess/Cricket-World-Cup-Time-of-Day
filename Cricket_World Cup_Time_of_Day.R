@@ -100,7 +100,7 @@ p2<- plot_dayandnight %>%
 
 final <- p1 | p2
 
-final + plot_annotation(title = "Cricket World Cup 1996 to 2005",
+final + plot_annotation(title = "One Day Internationals from 1996 to 2005",
                         subtitle = "Does the match time of day favor the Away or Home Team?",
                         caption = "\n#tidytuesday | Data: ESPN Cricinfo | Design: Ryan Hart") &
             theme(text = element_text(family = "Space Mono", color = "#FFFFFF"),
