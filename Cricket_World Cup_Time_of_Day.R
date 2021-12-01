@@ -104,12 +104,12 @@ final + plot_annotation(title = "Cricket World Cup 1996 to 2005",
                         subtitle = "Does the match time of day favor the Away or Home Team?",
                         caption = "\n#tidytuesday | Data: ESPN Cricinfo | Design: Ryan Hart") &
             theme(text = element_text(family = "Space Mono", color = "#FFFFFF"),
-                        plot.title = element_text(size = 16, family = "Space Mono" , hjust = .5, margin = margin(t = 10, b = 5)),
-                        plot.subtitle = element_text(size = 11, family = "Space Mono", margin = margin(t = 15, b = 15), hjust = .5, lineheight = 1.25),
+                        plot.title = element_text(size = 16, family = "Space Mono" , hjust = .5, margin = margin(t = 10, b = 10)),
+                        plot.subtitle = element_text(size = 11, family = "Space Mono", hjust = .5),
                         plot.background = element_rect(fill = "#121212", color = NA),
                         panel.background = element_rect(fill = "#121212", color = NA),
-                        plot.margin =  margin(30, 50, 50, 30),
-                        plot.caption = element_text(size = 8, hjust = .5, margin = margin(b = .5, unit = "cm"))
+                        plot.margin =  margin(40, 50, 50, 30),
+                        plot.caption = element_text(size = 8, hjust = .5)
 ) 
 
 
