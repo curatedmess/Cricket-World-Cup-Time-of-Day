@@ -108,7 +108,7 @@ final + plot_annotation(title = "Cricket World Cup 1996 to 2005",
                         plot.subtitle = element_text(size = 11, family = "Space Mono", margin = margin(t = 15, b = 15), hjust = .5, lineheight = 1.25),
                         plot.background = element_rect(fill = "#121212", color = NA),
                         panel.background = element_rect(fill = "#121212", color = NA),
-                        plot.margin =  margin(20, 20, 20, 20),
+                        plot.margin =  margin(30, 50, 50, 30),
                         plot.caption = element_text(size = 8, hjust = .5, margin = margin(b = .5, unit = "cm"))
 ) 
 
